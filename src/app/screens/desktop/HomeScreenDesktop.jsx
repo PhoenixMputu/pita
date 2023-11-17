@@ -1,7 +1,7 @@
 import React from 'react';
 
-const HomeScreen = () => {
+const HomeScreenDesktop = () => {
   return <div>HomeScreen Desktop</div>;
 };
 
-export default HomeScreen;
+export default HomeScreenDesktop;
