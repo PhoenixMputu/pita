@@ -1,36 +1,57 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Pita Kalala - Artist Portfolio Website
+
+This project is the official website for Pita Kalala, a talented visual artist. The website serves as a platform for showcasing Pita's latest artworks, enabling art sales, and providing information about upcoming exhibitions.
+
+## Features
+
+- **Artwork Showcase:** Display Pita Kalala's latest and featured artworks in an engaging manner.
+
+- **Art Sales:** Allow visitors to purchase artworks directly through the website.
+
+- **Exhibition Information:** Provide details about upcoming exhibitions, including dates, locations, and featured artworks.
+
+## Build With
+
+- **GSAP** for animations.
+- **Lokomotiv** for smooth transitions
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+- Node.js >= 16
+- npm >= 9
+
+### Instructions
+
+1. **Clone the Repository:**
+
+```
+git clone git@github.com:KinshasaDigitalAcademy/Pita-Kalala.git
+
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. **Navigate to the Project Directory:**
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+```
+cd pita-kalala
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+```
 
-## Learn More
+3. **Install Dependencies:**
 
-To learn more about Next.js, take a look at the following resources:
+```
+npm install
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+4. **Run the Development Server:**
 
-## Deploy on Vercel
+```
+npm run dev
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+### Contributing
+
+Contributions are welcome! If you have any suggestions, enhancements, or bug fixes, please submit a pull request.
