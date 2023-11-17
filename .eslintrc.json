@@ -2,7 +2,6 @@
   "extends": ["eslint:recommended", "next/core-web-vitals"],
   "rules": {
     "semi": ["error", "always"],
-    "no-irregular-whitespace": ["error", "always"],
     "arrow-body-style": ["error", "always"],
     "func-style": ["error", "declaration", { "allowArrowFunctions": true }],
     "prefer-const": ["error"]
