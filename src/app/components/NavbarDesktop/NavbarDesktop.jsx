@@ -10,9 +10,10 @@ import Logo from '../../assets/images/Logo.svg';
 
 const NavbarDesktop = () => {
   const component = useRef(null);
+  const { context } = gsap;
 
   useLayoutEffect(() => {
-    const ctx = gsap.context(() => {
+    const ctx = context(() => {
       gsap.from(['img', 'a'], {
         opacity: 0,
         y: -200,
