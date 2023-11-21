@@ -22,9 +22,7 @@ const NavbarDesktop = () => {
       });
     }, component);
 
-    return () => {
-      return ctx.revert();
-    };
+    return () => ctx.revert();
   }, []);
 
   return (

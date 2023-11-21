@@ -2,8 +2,9 @@
   "extends": ["eslint:recommended", "next/core-web-vitals"],
   "rules": {
     "semi": ["error", "always"],
-    "arrow-body-style": ["error", "always"],
+    "arrow-body-style": ["error", "as-needed"],
     "func-style": ["error", "declaration", { "allowArrowFunctions": true }],
-    "prefer-const": ["error"]
+    "prefer-const": ["error"],
+    "arrow-parens": ["error", "as-needed"]
   }
 }

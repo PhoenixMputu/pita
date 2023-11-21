@@ -1,7 +1,7 @@
 .header {
   width: 100%;
   background-color: #100f0f;
-  padding-inline: 70px;
+  padding-inline: 70px !important;
 }
 
 .container {
@@ -10,7 +10,7 @@
 }
 
 .header .container {
-  margin-left: 100px;
+  padding-left: 70px !important;
   padding-block: 1rem;
   color: #ffffff !important;
   display: flex;
@@ -76,6 +76,16 @@
 
 .btn:hover::before {
   transform: scaleX(1);
+}
+
+@media screen and (max-width: 850px) {
+  .header {
+    padding-inline: 50px !important;
+  }
+
+  .header .container {
+    padding-left: 50px !important;
+  }
 }
 
 @media screen and (min-width: 640px) {
