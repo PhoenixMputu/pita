@@ -1,13 +1,12 @@
 import React from 'react';
-import NavbarDesktop from '@/app/components/NavbarDesktop/NavbarDesktop';
+import NavbarDesktop from '@/app/components/navbarDesktop/NavbarDesktop';
+import HeroDesktop from '@/app/components/heroDesktop/HeroDesktop';
 
-const HomeScreenDesktop = () => {
-  return (
-    <>
-      <NavbarDesktop />
-      <div>Home Screen Desktop</div>
-    </>
-  );
-};
+const HomeScreenDesktop = () => (
+  <>
+    <NavbarDesktop />
+    <HeroDesktop />
+  </>
+);
 
 export default HomeScreenDesktop;
