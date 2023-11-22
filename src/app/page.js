@@ -4,9 +4,7 @@ import HomeScreenDesktop from './screens/desktop/HomeScreenDesktop';
 import HomeScreenMobile from './screens/mobile/HomeScreenMobile';
 
 export default function Home() {
-  const isBrowser = () => {
-    return typeof window !== 'undefined';
-  };
+  const isBrowser = () => typeof window !== 'undefined';
 
   const [windowSize, setWindowSize] = useState(
     isBrowser() && [window.innerWidth, window.innerHeight]
@@ -25,5 +23,5 @@ export default function Home() {
       };
     }
   }, []);
-  return windowSize[0] <= 768 ? <HomeScreenMobile /> : <HomeScreenDesktop />;
+  return windowSize[0] <= 1024 ? <HomeScreenMobile /> : <HomeScreenDesktop />;
 }

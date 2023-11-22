@@ -1,0 +1,111 @@
+.hero {
+  width: 100%;
+  background-color: #100f0f;
+}
+
+.container {
+  padding: 2rem 0 0 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: end;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.content h1 {
+  color: #fff;
+  font-size: 32px;
+  font-weight: 700;
+  width: 12ch;
+}
+
+.content h1 span {
+  color: #18ab53;
+}
+
+.content p {
+  width: 33ch;
+  font-size: 12px;
+  font-weight: 500;
+  color: #8f8f8f;
+  line-height: 20px;
+}
+
+.btn {
+  padding: 16px;
+  background-color: #18ab53;
+  text-align: left !important;
+  font-weight: 600;
+  line-height: 88%;
+  font-size: 16px;
+  border: 1px solid #18ab53;
+  color: #fff;
+  transition: all 0.3s linear !important;
+  position: relative;
+  margin-bottom: 2rem;
+}
+
+.btn:hover {
+  background-color: #100f0f;
+  color: #18ab53;
+}
+
+.btn::before {
+  content: '';
+  position: absolute !important;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #100f0f;
+  z-index: -1;
+  transition: transform 0.5s !important;
+  transform-origin: 0 0;
+  transition-timing-function: cubic-bezier(0.5, 1.6, 0.4, 0.7) !important;
+  transform: scaleX(0) !important;
+}
+
+.btn:hover::before {
+  transform: scaleX(1) !important;
+}
+
+.image {
+  width: 300px;
+  height: auto;
+}
+
+@media screen and (min-width: 500px) {
+  .container {
+    padding: 2rem 0 0 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .content h1 {
+    color: #fff;
+    font-size: 58px;
+    font-weight: 700;
+    width: 12ch;
+  }
+
+  .image {
+    width: 400px;
+    height: auto;
+  }
+
+  .content p {
+    font-size: 24px;
+    font-weight: 500;
+    color: #8f8f8f;
+    line-height: 34px;
+  }
+}
