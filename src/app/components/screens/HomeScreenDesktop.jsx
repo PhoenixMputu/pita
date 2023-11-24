@@ -1,6 +1,6 @@
 import React from 'react';
-import NavbarDesktop from '../components/navbarDesktop/NavbarDesktop';
-import HeroDesktop from '../components/heroDesktop/HeroDesktop';
+import NavbarDesktop from '../navbarDesktop/NavbarDesktop';
+import HeroDesktop from '../heroDesktop/HeroDesktop';
 
 const HomeScreenDesktop = () => (
   <>
