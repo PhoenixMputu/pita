@@ -1,6 +1,6 @@
 import React from 'react';
-import NavbarMobile from '@/app/components/navbarMobile/NavbarMobile';
-import HeroMobile from '../';
+import NavbarMobile from '../navbarMobile/navbar-mobile';
+import HeroMobile from '../heroMobile/hero-mobile';
 
 const HomeScreenMobile = () => (
   <>
