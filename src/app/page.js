@@ -1,7 +1,7 @@
 'use client';
 import { useState, useEffect } from 'react';
-import HomeScreenDesktop from './components/screens/HomeScreenDesktop';
-import HomeScreenMobile from './components/screens/HomeScreenMobile';
+import HomeScreenDesktop from './components/screens/home-screen-desktop';
+import HomeScreenMobile from './components/screens/home-screen-mobile';
 
 export default function Home() {
   const isBrowser = () => typeof window !== 'undefined';
