@@ -1,93 +1,30 @@
 .section {
   width: 100%;
-  background-color: #100f0f !important;
+  padding-block: 3rem;
+  background-color: #212121;
 }
 
 .container {
-  width: 100% !important;
-  margin: 0 auto !important;
-  position: relative;
-  background-color: #100f0f !important;
-  padding-block: 5rem;
+  margin: 0 auto;
+  width: 100%;
+  padding: 2rem 4rem;
 }
 
-.title {
-  text-align: center !important;
-  margin: 0 auto !important;
-  position: relative;
-}
-
-.title h2 {
-  font-size: 96px;
-  font-weight: 800;
+.container h2 {
   color: #fff;
-  text-align: center !important;
+  font-size: 96px;
+  letter-spacing: -3%;
+  font-weight: 600;
+  margin-bottom: 2rem;
 }
 
-.title h2 span {
-  display: block;
-  text-align: center !important;
-}
-
-.signature {
-  position: absolute !important;
-  top: 5%;
-  left: 35%;
-  transform: rotate(-50%, -50%) !important;
-}
-
-.women {
-  position: absolute;
-  top: -5%;
-  left: 0;
-  height: 300px;
-  width: auto;
-}
-
-.content {
-  margin-top: 5rem !important;
+.wrapper {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: flex-start;
-  background-color: #100f0f !important;
-}
-
-.content div {
-  width: 30%;
-}
-
-.content div div {
-  width: 100%;
-}
-
-.second_card {
-  padding-top: 3%;
-}
-
-.third_card {
-  padding-top: 10%;
-}
-
-.content div img {
-  width: 100% !important;
-  height: auto;
-}
-
-.content div div {
-  text-align: center;
-  margin-block: 1.5rem;
-}
-
-.content div div h4 {
-  color: #18ab53;
-  font-size: 18px;
-  line-height: 25px;
-}
-
-.content div div p {
-  color: #fff;
-  line-height: 25px;
+  align-items: center;
+  flex-wrap: wrap;
+  row-gap: 3rem;
 }
 
 .container_button {

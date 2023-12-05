@@ -1,93 +1,59 @@
 .section {
   width: 100%;
-  background-color: #100f0f !important;
+  background-color: #212121;
+  z-index: 1;
 }
 
 .container {
-  width: 100% !important;
-  margin: 0 auto !important;
-  position: relative;
-  background-color: #100f0f !important;
-  padding-block: 5rem;
+  margin: 0 auto;
+  padding-block: 3rem;
 }
 
-.title {
-  text-align: center !important;
-  margin: 0 auto !important;
+.container {
+  padding-inline: 2rem;
   position: relative;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 3rem;
 }
 
-.title h2 {
-  font-size: 96px;
-  font-weight: 800;
+.firstCard {
+  grid-column-start: 1;
+  grid-column-end: 1;
+}
+
+.firstCard h2 {
+  margin-left: 4rem;
   color: #fff;
-  text-align: center !important;
+  font-size: 96px;
+  margin-bottom: 5rem;
 }
 
-.title h2 span {
-  display: block;
-  text-align: center !important;
-}
-
-.signature {
-  position: absolute !important;
-  top: 5%;
-  left: 35%;
-  transform: rotate(-50%, -50%) !important;
-}
-
-.women {
-  position: absolute;
-  top: -5%;
-  left: 0;
-  height: 300px;
-  width: auto;
-}
-
-.content {
-  margin-top: 5rem !important;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: flex-start;
-  background-color: #100f0f !important;
-}
-
-.content div {
-  width: 30%;
-}
-
-.content div div {
+.firstCard img {
   width: 100%;
-}
-
-.second_card {
-  padding-top: 3%;
-}
-
-.third_card {
-  padding-top: 10%;
-}
-
-.content div img {
-  width: 100% !important;
   height: auto;
 }
 
-.content div div {
-  text-align: center;
-  margin-block: 1.5rem;
+.secondCard {
+  grid-column-start: 2;
+  grid-column-end: 2;
+  margin-right: 4rem;
 }
 
-.content div div h4 {
-  color: #18ab53;
-  font-size: 18px;
-  line-height: 25px;
+.secondCard img {
+  width: 100%;
+  height: auto;
 }
 
-.content div div p {
+.secondCard p {
+  margin: 0 auto;
+  padding-top: 2rem;
+  width: 400px;
   color: #fff;
+  font-size: 18px;
+  font-weight: 400;
   line-height: 25px;
+  text-align: center;
 }
 
 .container_button {
@@ -133,6 +99,23 @@
 
 .btn:hover::before {
   transform: scaleX(1);
+}
+
+.rotateImage {
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  width: auto;
+  height: 360px;
+  object-fit: cover;
+  transform: translate(-50%, -50%);
+}
+
+.arrowIcon {
+  position: absolute;
+  top: -3% !important;
+  left: 5%;
+  z-index: 111;
 }
 
 @media screen and (min-width: 640px) {

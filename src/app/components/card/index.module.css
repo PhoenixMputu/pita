@@ -1,0 +1,104 @@
+.card {
+  width: 30% !important;
+  position: relative !important;
+}
+
+.card img {
+  width: 100% !important;
+  object-fit: cover;
+  object-position: center;
+  height: auto !important;
+}
+
+.body {
+  display: none;
+}
+
+.container_button {
+  text-align: center !important;
+  position: absolute;
+  text-align: center !important;
+  bottom: 10%;
+  left: 30%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.container_button button {
+  border: none;
+  background: none;
+}
+
+.container_button:hover ~ .btn {
+  border: 1px solid #18ab53 !important;
+  background-color: #18ab53 !important;
+  color: #100f0f !important;
+}
+
+.btn {
+  margin: 0 auto;
+  padding: 16px;
+  background-color: #100f0f !important;
+  font-weight: 600;
+  line-height: 88%;
+  font-size: 16px;
+  border: 1px solid #100f0f !important;
+  transition: all 0.3s linear;
+  position: relative !important;
+  color: #18ab53;
+}
+
+.btn:hover {
+  border: 1px solid #18ab53 !important;
+  background-color: #18ab53 !important;
+  color: #100f0f !important;
+}
+
+.btn:hover ~ .icon {
+  visibility: visible;
+}
+
+.btn::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #18ab53 !important;
+  z-index: -1;
+  transition: transform 0.5s;
+  transform-origin: 0 0;
+  transition-timing-function: cubic-bezier(0.5, 1.6, 0.4, 0.7);
+  transform: scaleX(0);
+}
+
+.btn:hover::before {
+  transform: scaleX(1);
+  background-color: #18ab53;
+}
+
+.icon {
+  visibility: hidden;
+  padding: 14px;
+  background-color: #18ab53 !important;
+}
+
+.btn:hover ~ .body {
+  display: block !important;
+  position: absolute !important;
+  bottom: 0;
+  left: 0;
+  width: 100% !important;
+  background-color: #18ab53 !important;
+  z-index: 111 !important;
+}
+
+@media screen and (max-width: 1025px) {
+  .card {
+    width: 100% !important;
+  }
+}
