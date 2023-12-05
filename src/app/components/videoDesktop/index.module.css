@@ -1,0 +1,146 @@
+.section {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  background-color: #212121 !important;
+}
+
+.container,
+.containerVideo {
+  width: 100% !important;
+}
+
+.containerVideo {
+  margin: 0 auto;
+  background-color: #212121 !important;
+  position: relative;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.container img {
+  width: 100%;
+  height: auto;
+}
+
+.overText {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+}
+
+.container h2 {
+  width: 20ch;
+  font-size: 64px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.overText p {
+  width: 77ch;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.overText div {
+  width: 90px;
+  height: 90px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 50%;
+  border: 1px solid #fff;
+}
+
+.overText div:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+}
+
+.tag {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  top: 75px;
+  left: 5%;
+  transform: rotate(90deg);
+}
+
+.tag div {
+  padding: 7px 15px;
+  background-color: #18ab53;
+  color: #fff;
+}
+
+.icon {
+  padding: 12px 16px !important;
+  background-color: #212121 !important;
+}
+
+.icon i {
+  transform: rotate(45deg) !important;
+}
+
+.tag div p {
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.arrowIcon {
+  position: absolute;
+  bottom: -7% !important;
+  left: 5%;
+  z-index: 111;
+}
+
+.cancelIcon {
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 111;
+}
+
+@media screen and (min-width: 640px) {
+  .containerVideo {
+    max-width: 640px !important;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .containerVideo {
+    max-width: 768px !important;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .containerVideo {
+    max-width: 1024px !important;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .containerVideo {
+    max-width: 1280px !important;
+  }
+}
+
+@media screen and (min-width: 1536px) {
+  .containerVideo {
+    max-width: 1536px !important;
+  }
+}

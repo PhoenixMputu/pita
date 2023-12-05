@@ -47,22 +47,22 @@ const GaleryDesktop = () => {
           </div>
           <div className={styles.second_card}>
             <div>
-              <h4>KASA VUBU, 2021</h4>
-              <p>Oil on canvas 120 x 120 cm</p>
+              <h4>LE ROUGE, 2021</h4>
+              <p>Oil and acrylic on canvas 150 x 120 cm</p>
             </div>
             <Image src={art_women} alt="Women Art" />
           </div>
           <div className={styles.third_card}>
             <div>
-              <h4>KASA VUBU, 2021</h4>
-              <p>Oil on canvas 120 x 120 cm</p>
+              <h4>LES ANNÉES ZAÏRE, 2021</h4>
+              <p>Oil and acrylic on canvas 150 x 150 cm</p>
             </div>
             <Image src={art_women3} alt="Women Art" />
           </div>
         </div>
         <div className={styles.container_button}>
           <Link href="#" className={styles.btn}>
-            En savoir plus
+            Voir toute la galerie
           </Link>
         </div>
         <Image
