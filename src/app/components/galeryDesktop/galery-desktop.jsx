@@ -6,9 +6,9 @@ import Link from 'next/link';
 import styles from './index.module.css';
 import Signature from '../../assets/images/signature.png';
 import women from '../../assets/images/women.png';
-import art_women from '../../assets/images/image2.png';
-import art_women2 from '../../assets/images/image3.png';
-import art_women3 from '../../assets/images/image4.png';
+import art_women from '../../assets/images/images.png';
+import art_women2 from '../../assets/images/imageCapeau.png';
+import art_women3 from '../../assets/images/imageblack.png';
 
 const GaleryDesktop = () => {
   const component = useRef(null);

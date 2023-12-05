@@ -12,7 +12,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import styles from './index.module.css';
 import Art from '../../assets/images/art.png';
-import Women2 from '../../assets/images/women2.png';
+import Women2 from '../../assets/images/womenyellow.png';
 import Pita from '../../assets/images/Image.png';
 import Bg from '../../assets/images/Bg.png';
 
