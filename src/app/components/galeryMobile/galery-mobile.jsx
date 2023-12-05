@@ -5,9 +5,9 @@ import Image from 'next/image';
 import Link from 'next/link';
 import styles from './index.module.css';
 import Signature from '../../assets/images/signature.png';
-import art_women from '../../assets/images/image2.png';
-import art_women2 from '../../assets/images/image3.png';
-import art_women3 from '../../assets/images/image4.png';
+import art_women from '../../assets/images/images.png';
+import art_women2 from '../../assets/images/imageCapeau.png';
+import art_women3 from '../../assets/images/imageblack.png';
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 

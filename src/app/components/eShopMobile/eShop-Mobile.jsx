@@ -7,12 +7,12 @@ import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 
 import Card from '../card/card';
-import bg1 from '../../assets/images/bg1.png';
-import bg2 from '../../assets/images/bg2.png';
-import bg3 from '../../assets/images/bg3.png';
-import bg4 from '../../assets/images/bg4.png';
-import bg5 from '../../assets/images/bg5.png';
-import bg6 from '../../assets/images/bg6.png';
+import bg1 from '../../assets/images/black_men_with_kepi.png';
+import bg2 from '../../assets/images/women_yellow.png';
+import bg3 from '../../assets/images/women_orange.png';
+import bg4 from '../../assets/images/femmes.png';
+import bg5 from '../../assets/images/women_cover.png';
+import bg6 from '../../assets/images/women_green.png';
 
 const EShopMobile = () => {
   const component = useRef(null);
